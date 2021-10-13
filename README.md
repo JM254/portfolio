@@ -1,2 +1,2 @@
 # portfolio
-JM254 portfolio web page created using HTML
+JM254 portfolio comprising of several projects.

@@ -1,0 +1,98 @@
+<!--
+    Article: Contact
+    Author:John Brian Mwangi
+    Date:Nov, 2021
+    Language:HTMLS
+    License:MIT
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+	<link rel="stylesheet"href="css/style.css"/>
+	<script src="https://kit.fontawesome.com/7c9ce75979.js" crossorigin="anonymous"></script>
+	<!--Navigation bar-->
+    <nav>
+        <a href="#">John Brian</a>
+		<i class="fa-solid fa-address-card"></i> <a href="#">ABOUT</a>
+		<i class="fa-solid fa-gears"></i> <a href="#">SERVICE</a>
+		<i class="fa-solid fa-inbox"></i> <a href="#">CONTACT</a>
+		<i class="fa-solid fa-list-check"></i> <a href="#">PROJECT</a>
+		<i class="fa-solid fa-blog"></i><a href="#">BLOG</a>
+		<i class="fa-solid fa-file"></i>    <a href="#">RESUME</a>
+       
+    </nav>
+	<!--Jumbotron section-->
+	<section class="jumbotron">
+		<title>Contact</title>
+	</section>
+</head>
+<body>
+    <!--Main section-->
+    <main>
+		<section id="aboutsection">
+			<h1>Drop me a line...</h1>
+		</section>
+		<!--Form-->
+		<form action="destination URL">
+		  <label for="email">Email*</label><br>
+		  <input type="email" id="email" name="email" value="Your Email"><br><br>
+		  <label for="name">Name*</label><br>
+		  <input type="text" id="name" name="name" value="Your Name"><br><br>
+		  <label for="phone">Tel.</label>
+		  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}" size="4" placeholder="+254">
+		  <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" size="10" placeholder="7********">
+		  <br><br>
+		<div>Preferred Means:
+
+		  <input type="radio" id="tel" name="fav_language" value="tel">
+		  <label for="tel">Tel.</label>
+		  <input type="radio" id="email" name="fav_language" value="email">
+		  <label for="email">Email</label><br>
+		</div><br>
+		<div>Product* <br>
+		<select name="services">
+			<option>Web Design</option>
+			<option>Web Application</option>
+			<option selected="selected">Web Development</option>
+			<option>Website Debugging</option>
+		</select><br><br>
+		</div>
+		<div>Message* <br>
+		<textarea name="message" rows="8" cols="30">
+			
+		</textarea>
+		</div>
+		
+			<input type="checkbox" id="subscribe" name="subscribe" value="Bike">
+			<label for="subscribe"> Subscribe to news and offers</label><br><br>
+		  <input type="submit" value="Send Message">
+		</form> 
+    </main>   
+    <hr>
+	<!--Foooter section-->
+    <footer>
+        <ul>
+			                <i class="fa-brands fa-github"></i>
+			                <a href="https://gitthub.com/JM254"></a>
+			                <i class="fa-brands fa-twitter"></i>
+			                <a href="https://twitter.com/johnmarley 254"></a>
+			                <i class="fa-brands fa-linkedin"></i>
+			                <a href="https://www.linkedin.com/feed/"></a>
+			                <i class="fa-brands fa-instagram"></i>
+			                <a href="https://www.instagram.com/"></a>
+                            <i class="fa-solid fa-inbox"></i>
+			                <a href="https://johnmarley254@gmail.com"></a>
+			                <i class="fa-brands fa-facebook"></i>
+			                <a href="https://www.facebook.com/johnmarley254"></a>    
+		    </ul>
+		<p>                
+			               © 2021. All Rights Reserved. ™John Brian
+
+		</p>
+    </footer>
+</body>
+</html>

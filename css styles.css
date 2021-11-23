@@ -1,0 +1,48 @@
+body {
+    background-color:rgb(11, 252, 240);
+    font-family: Arial;
+}
+h1{
+   font-size: 18px;
+}
+a{
+   color:#00ff;
+   text-decoration:underline ;
+}
+a:hover {
+color:#00f800;
+text-decoration:underline ;
+}
+h2{
+   font-size:16px ;
+   
+}
+p{
+   font-size: 14px;
+}
+nav{
+   color: #0e0f0f;
+   font-size: x-large;
+}
+footer{
+   color: #042004;
+   font-size:x-large;
+}
+fa-github{
+   color: green;
+}
+fa-twitter{
+   color: honeydew;
+}
+fa-linkedin {
+   color: white;
+}
+fa-instagram{
+   color: red;
+}
+fa-inbox{
+   color: yellowgreen;
+}
+fa-facebook{
+   color: darkblue;
+}
